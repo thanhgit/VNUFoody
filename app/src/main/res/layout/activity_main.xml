@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/beer_bg"
+    android:orientation="vertical"
+    tools:context="com.phuocthang.vnufoody.MainActivity">
+
+    <include
+        android:id="@+id/myToolbar"
+        layout="@layout/mytoolbar"/>
+
+    <!--<Button
+        android:id="@+id/btn_func_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btn_func_1"/>
+    <Button
+        android:id="@+id/btn_func_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/main_btn_func_2"/>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.getbase.floatingactionbutton.FloatingActionsMenu
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/floatingAction"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            app:fab_addButtonColorNormal="@color/colorMyToolBar"
+            android:layout_marginBottom="20dp"
+            app:fab_addButtonColorPressed="@color/colorGlobalDoctor"
+
+            app:fab_labelStyle="@style/title_item_floating_action"
+            >
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/function_1"
+                app:fab_icon="@drawable/ic_eat_drink_places"
+
+                app:fab_size="mini"
+                app:fab_colorNormal="@color/colorMyToolBar"
+                app:fab_title="@string/floating_item_1"
+                app:fab_colorPressed="@color/colorGlobalDoctor"
+                />
+            <com.getbase.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/function_2"
+                app:fab_icon="@drawable/ic_gps"
+                app:fab_size="mini"
+                app:fab_colorNormal="@color/colorMyToolBar"
+                app:fab_title="@string/floating_item_2"
+
+                app:fab_colorPressed="@color/colorGlobalDoctor"
+                />
+        </com.getbase.floatingactionbutton.FloatingActionsMenu>
+    </RelativeLayout>
+
+</LinearLayout>

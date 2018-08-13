@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">vnufoody</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="main_btn_func_1">Xem tất cả địa điểm ăn uống trong ĐHQG</string>
+    <string name="main_btn_func_2">Tìm quanh tôi</string>
+    <string name="tilte_toolbar">Địa điểm ăn uống - VNU HCM</string>
+    <string name="floating_item_1">Xem tất cả địa điểm</string>
+    <string name="floating_item_2">Tìm quanh em</string>
+</resources>

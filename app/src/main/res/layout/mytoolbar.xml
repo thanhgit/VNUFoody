@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/toolBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:elevation="4dp"
+    android:background="@color/colorMyToolBar"
+    android:orientation="vertical">
+    <ImageView
+
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/vnufoody"
+        android:scaleType="fitCenter"
+        />
+    <TextView
+        android:id="@+id/toolbarTextView"
+        android:text="@string/tilte_toolbar"
+        android:gravity="center"
+        android:textColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</android.support.v7.widget.Toolbar>

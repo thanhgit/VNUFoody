@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/mapsToolBar"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:elevation="4dp"
+    android:background="@color/colorMyToolBar"
+    android:orientation="vertical">
+
+</android.support.v7.widget.Toolbar>
